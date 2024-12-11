@@ -27,7 +27,7 @@ Array.Sort(list2);
 int totalDistance = 0;
 for (int i = 0; i < list1.Length; i++);
 {
-    totalDistance += Math.Abs(list1[i] - list2[i]);
+    totalDistance += Math.Abs(list1{i} - list2{i});
 }
 
 
